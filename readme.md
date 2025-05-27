@@ -43,10 +43,10 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 
 ---
 
-## 📈 GitHub Stats
+<!-- ## 📈 GitHub Stats
 
 [![GitHub Stats](https://github-readme-stats.vercel.app/api?username=WiniciosUlrich&show_icons=true&theme=dark)](https://github.com/WiniciosUlrich)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WiniciosUlrich&layout=compact&theme=dark)](https://github.com/WiniciosUlrich)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WiniciosUlrich&layout=compact&theme=dark)](https://github.com/WiniciosUlrich) -->
 
 ---
 
