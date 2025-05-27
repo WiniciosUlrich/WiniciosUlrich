@@ -52,7 +52,7 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 
 ## 📫 Contato
 
-- LinkedIn: [linkedin.com/in/winiciosivanulrich](https://www.linkedin.com/in/winiciosivanulrich/)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/winiciosivanulrich/)
 
 ---
 
