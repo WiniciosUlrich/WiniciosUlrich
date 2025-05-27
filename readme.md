@@ -26,7 +26,7 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 
 ### Outras ferramentas e conceitos:
 
-- **Back-end:** PHP (Web Hooks), Python (Scripts e automações), ABAP (Relatórios, RFC, BAPIs)
+- **Back-end:** PHP, Python, ABAP
 - **Integrações:** API REST/SOAP, IDoc, RFC, SAP PI/PO, filas, arquivos intermediários
 - **Banco de dados:** SQL Server, MySQL
 - **Outros:** Git, JSON, XML, ferramentas de debug/log de integração
@@ -36,7 +36,7 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 ## 🌐 O que eu faço
 
 - Desenvolvimento de **sistemas web personalizados**
-- Integrações entre **SAP ERP** e sistemas externos (PIM, e-commerce, CRM, entre outros)
+- Integrações entre **SAP ERP** e sistemas externos
 - Programação ABAP para relatórios, correção de bugs e integrações via RFC
 - Criação de APIs e consumo de serviços externos
 - Monitoramento e tratamento de erros em integrações
