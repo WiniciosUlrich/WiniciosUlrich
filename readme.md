@@ -7,7 +7,7 @@
 
 ## 🚀 Sobre mim
 
-Sou um desenvolvedor com experiência sólida na construção de soluções web e integrações robustas entre o ERP SAP e sistemas satélites. Tenho paixão por automatizar processos, conectar sistemas distintos e entregar soluções funcionais e eficientes.
+Sou um desenvolvedor com experiência construção de soluções web e integrações robustas entre o ERP SAP e sistemas satélites. Tenho paixão por automatizar processos, conectar sistemas distintos e entregar soluções funcionais e eficientes.
 
 ---
 
@@ -26,8 +26,7 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 
 ### Outras ferramentas e conceitos:
 
-- **Back-end:** PHP, Python, ABAP
-- **Integrações:** API REST/SOAP, IDoc, RFC, SAP PI/PO, filas, arquivos intermediários
+- **Back-end:** PHP, Python, ABAP, HTML/CSS
 - **Banco de dados:** SQL Server, MySQL
 - **Outros:** Git, JSON, XML, ferramentas de debug/log de integração
 
@@ -50,7 +49,7 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 🔥 Minha paixão por **ABAP** me leva a trabalhar constantemente em:
 - Desenvolvimento de relatórios customizados
 - Criação de transações específicas para processos de negócio
-- Implementação de integrações complexas via RFC e IDoc
+- Implementação de integrações complexas via RFC e ODATA
 - Otimização de performance em códigos ABAP existentes
 - Desenvolvimento de user-exits e BADIs
 
@@ -70,5 +69,3 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/winiciosivanulrich/)
 
 ---
-
-⭐ Obrigado por visitar meu perfil!
