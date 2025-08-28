@@ -41,6 +41,21 @@ Sou um desenvolvedor com experiência sólida na construção de soluções web 
 - Criação de APIs e consumo de serviços externos
 - Monitoramento e tratamento de erros em integrações
 
+---
+
+## 💡 Sobre minha atividade no GitHub
+
+📝 **Períodos de inatividade no GitHub?** Durante esses momentos, estou focado em **projetos SAP corporativos**, programando intensivamente em **ABAP** - uma linguagem que eu realmente **adoro**! 
+
+🔥 Minha paixão por **ABAP** me leva a trabalhar constantemente em:
+- Desenvolvimento de relatórios customizados
+- Criação de transações específicas para processos de negócio
+- Implementação de integrações complexas via RFC e IDoc
+- Otimização de performance em códigos ABAP existentes
+- Desenvolvimento de user-exits e BADIs
+
+💼 Nesses períodos, atuo fortemente com **integrações** e **sistemas web** em ambiente corporativo, onde muitos dos projetos são confidenciais e não podem ser compartilhados publicamente.
+
 <!-- ---
 
 ## 📈 GitHub Stats
