@@ -1,71 +1,115 @@
 # 👋 Olá! Eu sou o Winicios Ivan Ulrich
 
-🎯 **Desenvolvedor de Sistemas Web** | 💻 **Integrações com o ERP SAP**  
-💬 Foco em **PHP**, **Python** e **ABAP**
+🎯 **Desenvolvedor de Sistemas** na Mueller  
+💻 **SAP ABAP** · **Integrações SAP ↔ sistemas satélites** · **Python** · **PHP**
 
 ---
 
 ## 🚀 Sobre mim
 
-Sou um desenvolvedor com experiência construção de soluções web e integrações robustas entre o ERP SAP e sistemas satélites. Tenho paixão por automatizar processos, conectar sistemas distintos e entregar soluções funcionais e eficientes.
+Trabalho na fronteira entre o **ERP SAP** e o resto do mundo: relatórios e transações em **ABAP**, integrações via **RFC** e **OData**, e sistemas web que consomem e alimentam o ERP.
+
+Gosto especialmente do problema de **fazer sistemas distintos conversarem** — é onde a maior parte do meu trabalho vive. Fora do horário corporativo, tenho me dedicado a **Python** aplicado a integração SAP e a **IA aplicada** na faculdade.
+
+---
+
+## ⭐ Projeto em destaque
+
+### `sap-rfc-python` — chamando ABAP do Python sem PyRFC
+
+Em **28 de maio de 2026 a SAP arquivou o PyRFC** e não publicou substituto oficial. A recomendação da própria SAP para acesso RFC suportado passou a ser "migre para C ou C++". Isso deixa quem integra SAP com Python sem caminho.
+
+Este projeto é minha resposta: um **binding do SAP NetWeaver RFC SDK feito direto em `ctypes`**, em um único arquivo Python.
+
+- ✅ Sem Cython, sem compilador C, sem wheel para buildar a cada versão do Python
+- ✅ Alvo no **SDK 7.50**, a linha que a SAP ainda mantém e corrige
+- ✅ Chamadas orientadas a metadados, tabelas aninhadas, `XSTRING`, resultados tipados
+- ✅ Windows, Linux e macOS
+- ✅ Guia de migração call-by-call para quem já tem base em PyRFC
+
+```python
+from sap_rfc_connector import SapRfcConnector
+
+with SapRfcConnector() as sap:
+    out = sap.call("STFC_CONNECTION", REQUTEXT="Hello SAP")
+    print(out["ECHOTEXT"])
+```
+
+| | 🇬🇧 English docs | 🇩🇪 Deutsche Doku |
+|---|---|---|
+| Repositório | [**sap-rfc-python-no-pyrfc**](https://github.com/WiniciosUlrich/sap-rfc-python-no-pyrfc) | [**sap-rfc-python-ohne-pyrfc**](https://github.com/WiniciosUlrich/sap-rfc-python-ohne-pyrfc) |
+
+> Mesmo código, documentação em dois idiomas — porque a comunidade que mais depende de RFC não fala só inglês.
 
 ---
 
 ## 🛠️ Tecnologias e Ferramentas
 
-<div style="display: flex; flex-wrap: wrap; gap: 8px; align-items: center;">
-
-![ABAP](https://img.shields.io/badge/SAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
-![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![SAP](https://img.shields.io/badge/SAP_ABAP-0FAAFF?style=for-the-badge&logo=sap&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Git](https://img.shields.io/badge/Git-E34F26?style=for-the-badge&logo=git&logoColor=white)
-![HTML](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
-![CSS](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![PHP](https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=for-the-badge&logo=microsoftsqlserver&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+![Jupyter](https://img.shields.io/badge/Jupyter-F37626?style=for-the-badge&logo=jupyter&logoColor=white)
 
-</div>
-
-### Outras ferramentas e conceitos:
-
-- **Back-end:** PHP, Python, ABAP, HTML/CSS
-- **Banco de dados:** SQL Server, MySQL
-- **Outros:** Git, JSON, XML, ferramentas de debug/log de integração
+| Área | Ferramentas |
+|---|---|
+| **SAP** | ABAP, RFC, OData, BAPIs, user-exits, BAdIs, SAP NetWeaver RFC SDK |
+| **Back-end** | Python, PHP, `ctypes`, APIs REST |
+| **Front-end** | HTML, CSS, JavaScript |
+| **Dados** | SQL Server, MySQL, JSON, XML |
+| **IA / Dados** | scikit-learn, pandas, Jupyter |
 
 ---
 
 ## 🌐 O que eu faço
 
-- Desenvolvimento de **sistemas web personalizados**
-- Integrações entre **SAP ERP** e sistemas externos
-- Programação ABAP para relatórios, correção de bugs e integrações via RFC
-- Criação de APIs e consumo de serviços externos
-- Monitoramento e tratamento de erros em integrações
+- **Integrações SAP ↔ sistemas externos** — RFC, OData, filas, tratamento e monitoramento de erros
+- **ABAP** — relatórios customizados, transações de negócio, user-exits e BAdIs, otimização de performance
+- **Sistemas web corporativos** sob medida, consumindo e alimentando o ERP
+- **Conectores e bibliotecas** que removem atrito de quem integra SAP
+
+---
+
+## 🎓 IA aplicada e fundamentos
+
+Projetos acadêmicos públicos, do algoritmo cru à aplicação:
+
+| Projeto | Tema |
+|---|---|
+| [IA_Aplicada_Regras_de_Associacao](https://github.com/WiniciosUlrich/IA_Aplicada_Regras_de_Associa-o) | Regras de associação / mineração de padrões |
+| [TrabIA-KNN](https://github.com/WiniciosUlrich/TrabIA-KNN) | Classificação com KNN |
+| [TrabIA-Regressao](https://github.com/WiniciosUlrich/TrabIA-Regress-o) | Modelos de regressão |
+| [TrabalhoMinimax](https://github.com/WiniciosUlrich/TrabalhoMinimax) | Minimax aplicado ao jogo da velha |
+| [TrabAspirador](https://github.com/WiniciosUlrich/TrabAspirador) | Agentes reativos e orientados a objetivo |
+| [TrabGrafos](https://github.com/WiniciosUlrich/TrabGrafos) | Algoritmos em grafos |
+| [TrabSis.Operacionais](https://github.com/WiniciosUlrich/TrabSis.Operacionais) | Detecção de deadlock |
+| [MonitorProcessosPUBLIC](https://github.com/WiniciosUlrich/MonitorProcessosPUBLIC) | Monitor de processos web |
+| [reportablu](https://github.com/WiniciosUlrich/reportablu) | Aplicação web em PHP |
+
+---
+
+## 🗺️ Onde quero chegar
+
+Estou construindo experiência em **integração SAP e Python** com o objetivo de atuar no **mercado alemão** nos próximos anos — SAP é uma empresa alemã, e é ali que o ecossistema é mais denso.
+
+- 🇧🇷 Português — nativo
+- 🇬🇧 Inglês — leitura e escrita técnica
+- 🇩🇪 Alemão — **A2, em estudo ativo** (`Ich lerne noch — aber ich bleibe dabei.`)
 
 ---
 
 ## 💡 Sobre minha atividade no GitHub
 
-📝 **Períodos de inatividade no GitHub?** Durante esses momentos, estou focado em **projetos SAP corporativos**, programando intensivamente em **ABAP** - uma linguagem que eu realmente **adoro**! 
-
-🔥 Minha paixão por **ABAP** me leva a trabalhar constantemente em:
-- Desenvolvimento de relatórios customizados
-- Criação de transações específicas para processos de negócio
-- Implementação de integrações complexas via RFC e ODATA
-- Otimização de performance em códigos ABAP existentes
-- Desenvolvimento de user-exits e BADIs
-
-💼 Nesses períodos, atuo fortemente com **integrações** e **sistemas web** em ambiente corporativo, onde muitos dos projetos são confidenciais e não podem ser compartilhados publicamente.
-
-<!-- ---
-
-## 📈 GitHub Stats
-
-[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=WiniciosUlrich&show_icons=true&theme=dark)](https://github.com/WiniciosUlrich)  
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=WiniciosUlrich&layout=compact&theme=dark)](https://github.com/WiniciosUlrich) -->
+Boa parte do meu código vive em ambiente corporativo: **ABAP e integrações que não podem ser publicados**. Períodos mais quietos aqui normalmente significam projetos SAP intensos do outro lado. O que dá para abrir — como o conector RFC — eu abro.
 
 ---
 
 ## 📫 Contato
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/winiciosivanulrich/)
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/WiniciosUlrich)
 
 ---
