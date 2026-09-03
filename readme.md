@@ -13,35 +13,6 @@ Gosto especialmente do problema de **fazer sistemas distintos conversarem** — 
 
 ---
 
-## ⭐ Projeto em destaque
-
-### `sap-rfc-python` — chamando ABAP do Python sem PyRFC
-
-Em **28 de maio de 2026 a SAP arquivou o PyRFC** e não publicou substituto oficial. A recomendação da própria SAP para acesso RFC suportado passou a ser "migre para C ou C++". Isso deixa quem integra SAP com Python sem caminho.
-
-Este projeto é minha resposta: um **binding do SAP NetWeaver RFC SDK feito direto em `ctypes`**, em um único arquivo Python.
-
-- ✅ Sem Cython, sem compilador C, sem wheel para buildar a cada versão do Python
-- ✅ Alvo no **SDK 7.50**, a linha que a SAP ainda mantém e corrige
-- ✅ Chamadas orientadas a metadados, tabelas aninhadas, `XSTRING`, resultados tipados
-- ✅ Windows, Linux e macOS
-- ✅ Guia de migração call-by-call para quem já tem base em PyRFC
-
-```python
-from sap_rfc_connector import SapRfcConnector
-
-with SapRfcConnector() as sap:
-    out = sap.call("STFC_CONNECTION", REQUTEXT="Hello SAP")
-    print(out["ECHOTEXT"])
-```
-
-| | 🇬🇧 English docs | 🇩🇪 Deutsche Doku |
-|---|---|---|
-| Repositório | [**sap-rfc-python-no-pyrfc**](https://github.com/WiniciosUlrich/sap-rfc-python-no-pyrfc) | [**sap-rfc-python-ohne-pyrfc**](https://github.com/WiniciosUlrich/sap-rfc-python-ohne-pyrfc) |
-
-> Mesmo código, documentação em dois idiomas — porque a comunidade que mais depende de RFC não fala só inglês.
-
----
 
 ## 🛠️ Tecnologias e Ferramentas
 
