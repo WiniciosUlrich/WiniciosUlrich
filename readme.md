@@ -44,24 +44,6 @@ Gosto especialmente do problema de **fazer sistemas distintos conversarem** — 
 
 ---
 
-## 🎓 IA aplicada e fundamentos
-
-Projetos acadêmicos públicos, do algoritmo cru à aplicação:
-
-| Projeto | Tema |
-|---|---|
-| [IA_Aplicada_Regras_de_Associacao](https://github.com/WiniciosUlrich/IA_Aplicada_Regras_de_Associa-o) | Regras de associação / mineração de padrões |
-| [TrabIA-KNN](https://github.com/WiniciosUlrich/TrabIA-KNN) | Classificação com KNN |
-| [TrabIA-Regressao](https://github.com/WiniciosUlrich/TrabIA-Regress-o) | Modelos de regressão |
-| [TrabalhoMinimax](https://github.com/WiniciosUlrich/TrabalhoMinimax) | Minimax aplicado ao jogo da velha |
-| [TrabAspirador](https://github.com/WiniciosUlrich/TrabAspirador) | Agentes reativos e orientados a objetivo |
-| [TrabGrafos](https://github.com/WiniciosUlrich/TrabGrafos) | Algoritmos em grafos |
-| [TrabSis.Operacionais](https://github.com/WiniciosUlrich/TrabSis.Operacionais) | Detecção de deadlock |
-| [MonitorProcessosPUBLIC](https://github.com/WiniciosUlrich/MonitorProcessosPUBLIC) | Monitor de processos web |
-| [reportablu](https://github.com/WiniciosUlrich/reportablu) | Aplicação web em PHP |
-
----
-
 ## 🗺️ Onde quero chegar
 
 Estou construindo experiência em **integração SAP e Python** com o objetivo de atuar no **mercado alemão** nos próximos anos — SAP é uma empresa alemã, e é ali que o ecossistema é mais denso.
